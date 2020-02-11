@@ -2,11 +2,11 @@
 #define FLY_WITH_WINGS_H
 
 #include "FlyBehavior.h"
+
 class FlyWithWings : public FlyBehavior
 {
 public:
-	void fly() override;
+	void fly() override;	
 };
 
-
-#endif
+#endif // !FLY_WITH_WINGS_H

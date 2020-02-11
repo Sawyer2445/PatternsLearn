@@ -1,6 +1,13 @@
 #include "..\Public\Duck.h"
-#include <iostream>
 #include "..\Public\FlyWithWings.h"
+#include "..\Public\Quack.h"
+
+#include <iostream>
+
+void Duck::setFlyBehavior(FlyBehavior * fb)
+{
+	fly_behavior = fb;
+}
 
 void Duck::perfomFly()
 {
@@ -10,6 +17,11 @@ void Duck::perfomFly()
 void Duck::performQuack()
 {
 	quack_behavior->quack();
+}
+
+void Duck::setQuckBehavior(QuackBehavior * qb)
+{
+	quack_behavior = qb;
 }
 
 void Duck::swim()

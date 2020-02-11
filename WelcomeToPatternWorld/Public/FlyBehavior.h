@@ -4,8 +4,8 @@
 class FlyBehavior
 {
 public:
-	virtual void fly();
+	virtual void fly() =0;
 };
 
-#endif
+#endif // !FLY_BEHAVIOR_H
 
