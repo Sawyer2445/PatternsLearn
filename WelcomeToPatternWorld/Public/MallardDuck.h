@@ -2,6 +2,7 @@
 #define MALLARDUCK_H
 
 #include "Duck.h"
+
 class MallardDuck : public Duck
 {
 public:
@@ -9,6 +10,4 @@ public:
 	void display() override;
 };
 
-
-
-#endif
+#endif // !MALLARDUCK_H
